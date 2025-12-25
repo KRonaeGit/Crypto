@@ -14,7 +14,7 @@ Everything is ready for you. Just add below `<dependency>` into your `<dependenc
 <dependency>
     <groupId>io.github.kronaegit</groupId>
     <artifactId>crypto</artifactId>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
 </dependency>
 ```
 
