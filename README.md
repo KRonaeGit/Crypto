@@ -19,7 +19,7 @@ Everything is ready for you. Just add below `<dependency>` into your `<dependenc
 ```
 
 ## Example use
-Hash : example use
+SHA-256(Hash) : example use
 ```java
 package kronaegit.crypto.hash;
 
@@ -161,7 +161,7 @@ public class TestRSA {
 
 ```
 
-Checksum : example use
+CRC32(Checksum) : example use
 ```java
 package kronaegit.crypto.checksum;
 
@@ -188,7 +188,7 @@ public class TestCRC32 {
 }
 ```
 
-Padding : example use
+PKCS7(Padding) : example use
 ```java
 package kronaegit.crypto.padding;
 
