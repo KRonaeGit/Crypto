@@ -2,10 +2,10 @@
 'Crypto' implements several algorithms in an object-oriented manner.
 
 You can do below things with `Crypto` library:
-- Hash(⚠️MD2, ⚠️MD5, ⚠️SHA1, SHA-xxx, SHA3-xxx, SHA-512/xxx, etc)
+- Hash(*⚠️MD2*, *⚠️MD5*, *⚠️SHA1*, SHA-xxx, SHA3-xxx, SHA-512/xxx, etc)
 - Mac(HMac *with specific hash algorithm*)
-- Symmetric Encryption(⚠️AES-ECB and AES-GCM)
-- Asymmetric Encryption(⚠️DES and RSA)
+- Symmetric Encryption(*⚠️AES-ECB* and AES-GCM)
+- Asymmetric Encryption(*⚠️DES* and RSA)
 - Checksum(CRC32, Adler32)
 - Padding(PKCS#1, PKCS#5, PKCS#7)
 
