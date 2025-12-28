@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class AES_GCM extends SymmetricEncryption<SecretKeySpec> {
     private static final String TRANSFORMATION = "AES/GCM/NoPadding";
 
-    private static final int DEFAULT_IV_LENGTH = 12;      // 96 bits (권장)
+    private static final int DEFAULT_IV_LENGTH = 12;      // 96 bits
     private static final int DEFAULT_TAG_LENGTH = 128;    // bits
 
     private final int iv_bytes;
@@ -30,7 +30,7 @@ public class AES_GCM extends SymmetricEncryption<SecretKeySpec> {
     }
 
     public AES_GCM(byte[] key) throws GeneralSecurityException {
-        this(key, CryptoTool.random(), 12, 128);
+        this(key, CryptoTool.random(), DEFAULT_IV_LENGTH, DEFAULT_TAG_LENGTH);
     }
 
     @Override

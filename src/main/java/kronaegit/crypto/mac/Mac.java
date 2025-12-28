@@ -1,7 +1,6 @@
 package kronaegit.crypto.mac;
 
 import kronaegit.crypto.CryptoTool;
-import kronaegit.crypto.hash.Hash;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.charset.Charset;
