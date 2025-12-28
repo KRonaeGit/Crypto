@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 import java.security.GeneralSecurityException;
 import java.util.Arrays;
 
-public interface PasswordHash<R, H> {
+    public interface PasswordHash<R, H> {
     @Contract(value = "_ -> new", pure = true)
     static @NotNull PasswordHash<byte[], byte[]> of(Hash hash) {
         return new PasswordHash<byte[], byte[]>() {
